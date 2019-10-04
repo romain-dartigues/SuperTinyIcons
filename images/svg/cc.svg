@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:x="http://www.w3.org/1999/xlink"
+aria-label="CC" role="img"
+viewBox="0 0 512 512">
+<circle cx="256" cy="256" r="217" fill="#fff" stroke-width="40" stroke="#000"/>
+<path d="M254 220l-30 15a26 26 0 00-24-17c-19-1-29 12-29 38 0 12 3 21 8 28s12 10 22 10c12 0 21-6 26-18l27 13a64 64 0 01-57 35c-19 0-35-6-47-18a67 67 0 01-18-50c0-21 6-37 18-49s29-19 46-19c27 0 46 11 58 32z" id="a"/>
+<use x:href="#a" transform="translate(125.8)"/>
+</svg>
