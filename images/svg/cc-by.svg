@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+aria-label="CC-BY" role="img"
+viewBox="0 0 512 512">
+<circle cx="256" cy="256" r="217" fill="#fff" stroke-width="40" stroke="#000"/>
+<circle cx="256" cy="145" r="30"/>
+<path d="M211 188c-7 0-14 6-14 14v89h25v106h68V291h25v-89c0-8-7-14-14-14z"/>
+</svg>
