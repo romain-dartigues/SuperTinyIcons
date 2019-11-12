@@ -37,6 +37,7 @@ Say thanks!
 </tr>
 <tr>
 <td>dev.to<br><img src="https://edent.github.io/SuperTinyIcons/images/svg/dev_to.svg" width="125" title="dev.to"/><br>735 Bytes</td>
+<td>Pixelfed<br><img src="https://edent.github.io/SuperTinyIcons/images/svg/pixelfed.svg" width="125" title="Pixelfed"/><br><!-- FIXME --> Bytes</td>
 </tr>
 </table>
 
