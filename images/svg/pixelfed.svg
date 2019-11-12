@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+aria-label="Pixelfed" role="img"
+viewBox="0 0 512 512"><rect
+width="512" height="512"
+rx="15%"
+fill="#fff"/>
+
+<use fill="#A63FDB" xlink:href="#a" transform="rotate(72 256 256)"/>
+<g fill="#0087FF"><path id="a" d="m 256,256 c 8.84027,135.20498 188.92522,100.44135 191.98437,-0.0463 0,92.74018 -51.94636,155.7179 -128.37612,181.56849 C 269.58413,454.44169 214.79274,427.5225 197.22791,377.39652 179.66307,327.27057 205.97623,272.91949 256,256 Z"/></g>
+<use fill="#03FF6E" xlink:href="#a" transform="rotate(-72 256 256)"/>
+<use fill="#FF7725" xlink:href="#a" transform="rotate(-144 256 256)"/>
+<use fill="#EB0256" xlink:href="#a" transform="rotate(-216 256 256)"/>
+
+<path fill="#fff" d="m 240.86364,297.06865 h 35.12282 c 33.0871,0 59.90949,-25.99455 59.90949,-58.06046 0,-32.06591 -26.82239,-58.06046 -59.90949,-58.06046 h -50.69265 c -19.08871,0 -34.56316,14.99686 -34.56316,33.49642 v 130.37253 z"/>
+
+</svg>
