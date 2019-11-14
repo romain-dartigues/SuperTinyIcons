@@ -5,13 +5,25 @@ viewBox="0 0 512 512"><rect
 width="512" height="512"
 rx="15%"
 fill="#fff"/>
+<radialGradient id="g"><stop offset=".5" stop-opacity="0"/><stop offset="1" stop-opacity=".2"/></radialGradient>
+<g fill="#21EFE3">
+ <path id="a" d="m 256,256 c 8.84027,135.20498 188.92522,100.44135 191.98437,-0.0463 0,92.74018 -51.94636,155.7179 -128.37612,181.56849 C 269.58413,454.44169 214.79274,427.5225 197.22791,377.39652 179.66307,327.27057 205.97623,272.91949 256,256 Z"/>
+</g>
+<path id="b" d="M 320.81064,436.81885 C 197.14539,479.92867 131.79011,290.88966 256.49391,256.47863 c 0.005,7.79323 0.95689,15.36852 2.74802,22.61986 -113.05027,66.56933 -7.39297,177.05269 61.56871,157.72036 z" style="opacity:.5;mix-blend-mode:overlay;"/>
 
-<use fill="#A63FDB" xlink:href="#a" transform="rotate(72 256 256)"/>
-<g fill="#0087FF"><path id="a" d="m 256,256 c 8.84027,135.20498 188.92522,100.44135 191.98437,-0.0463 0,92.74018 -51.94636,155.7179 -128.37612,181.56849 C 269.58413,454.44169 214.79274,427.5225 197.22791,377.39652 179.66307,327.27057 205.97623,272.91949 256,256 Z"/></g>
-<use fill="#03FF6E" xlink:href="#a" transform="rotate(-72 256 256)"/>
-<use fill="#FF7725" xlink:href="#a" transform="rotate(-144 256 256)"/>
-<use fill="#EB0256" xlink:href="#a" transform="rotate(-216 256 256)"/>
-
+<g transform="rotate(72 256 256)">
+ <g transform="rotate(72 256 256)">
+  <g transform="rotate(72 256 256)">
+   <g transform="rotate(72 256 256)">
+    <!-- vert -->
+    <use fill="#03FF6E" xlink:href="#a"/><use xlink:href="#b"/>
+   </g>
+   <use fill="#FF7725" xlink:href="#a"/><use xlink:href="#b"/><!-- orange -->
+  </g>
+  <use fill="#EB0256" xlink:href="#a"/><use xlink:href="#b"/><!-- rouge -->
+ </g>
+ <use fill="#A63FDB" xlink:href="#a"/><use xlink:href="#b"/><!-- violet -->
+</g>
+<circle cx="256" cy="256" r="194" fill="url(#g)" style="mix-blend-mode:overlay;"/>
 <path fill="#fff" d="m 240.86364,297.06865 h 35.12282 c 33.0871,0 59.90949,-25.99455 59.90949,-58.06046 0,-32.06591 -26.82239,-58.06046 -59.90949,-58.06046 h -50.69265 c -19.08871,0 -34.56316,14.99686 -34.56316,33.49642 v 130.37253 z"/>
-
 </svg>
