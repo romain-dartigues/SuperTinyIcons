@@ -9,24 +9,55 @@
   align-items: center;
   justify-content: center;
  }
-section div {
- text-align: center;
- padding: 1.5em 1em;
- box-sizing: border-box;
- width:128px;
- align-self: flex-end;
-}
-section img {
- width:100px;
-}
-section span {
- font-family: monospace;
-}
+ section div {
+  text-align: center;
+  padding: 1.5em 1em;
+  box-sizing: border-box;
+  width:128px;
+  align-self: flex-end;
+ }
+ section img {
+  width:100px;
+ }
+ section span {
+  font-family: monospace;
+ }
+
+ #map {
+  background:#eee;
+  display:flex;
+  flex-wrap:wrap;
+  gap:1px;
+ }
+ #map i {
+  display:inline-block;
+  padding:2px;
+  background-color:hsl(var(--a) 100% 50%);
+  opacity: .25;
+ }
+ #map i:hover {
+ opacity:1;
+ }
 {% endblock %}
 </style>
+
+{% block script %}<script>
+ document.addEventListener("DOMContentLoaded", function(){
+  let tpl='';
+  document.querySelectorAll('.thumb').forEach(function(e){
+   let size = parseInt(e.dataset.size);
+   let percent = size/1024;
+   let angle = 360*percent;
+   tpl += '<i style="--s:' + size + '; --p:'+ percent + '; --a:' + (angle) +'" title="'+ e.dataset.name + ': ' + size +' B"></i>';
+  });
+  document.querySelector('#map').innerHTML = tpl;
+ });
+</script>
+{% endblock %}
+
 {% block content %}
 <h2>What's Available so far?</h2>
-
+<aside id="map"></aside>
 <section>
 {% for _, icon in icons | dictsort -%}
  <div class="thumb" data-name="{{ icon.name }}" data-size="{{ icon.size }}">
