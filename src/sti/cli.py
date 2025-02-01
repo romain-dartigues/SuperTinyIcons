@@ -3,7 +3,6 @@
 # stdlib
 from argparse import ArgumentParser
 from pathlib import Path
-from os.path import commonprefix
 import logging
 import sys
 
