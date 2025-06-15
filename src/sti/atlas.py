@@ -41,7 +41,7 @@ class Atlas:
         fp.write("</mxlibrary>")
 
     def write_svg(self, fp):
-        template = tpl.get_template(name="map.svg")
+        template = tpl.get_template(name="atlas.svg")
         fp.write(template.render(library=self.lib))
 
 def parse_args():
